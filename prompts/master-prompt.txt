@@ -1,0 +1,38 @@
+You are generating icons for a professional restaurant POS system touchscreen.
+All icons must look like they belong to the same fixed icon pack.
+
+GLOBAL STYLE (ABSOLUTELY NEVER CHANGE):
+- flat vector illustration
+- very clear and simple shapes
+- highly recognizable silhouette
+- slightly rounded geometry (not cartoonish)
+- consistent 4px outline stroke
+- medium contrast colors (good visibility on bright screens)
+- muted natural food colors (no neon, no pastel candy style)
+- minimal soft shading only for volume readability
+- no gradients except extremely subtle shading
+- clean white background
+- centered object
+- fixed scale: object fills about 75% of canvas
+- consistent angle: slight 30° top perspective
+- tiny soft grounding shadow
+- designed for fast recognition on touchscreen POS displays
+
+STRICT RULES:
+- draw ONLY the food or drink item itself
+- no text
+- no brand names
+- no logos
+- no packaging text
+- no additional objects unless essential (e.g. straw in drink)
+- no decorations
+- no background scenes
+- no hands or people
+- plate only if necessary to understand the food
+- no watermark
+- no photorealism
+- no artistic styles
+- must look like a standardized commercial icon
+
+TASK:
+Create a colored POS icon of: {subject}

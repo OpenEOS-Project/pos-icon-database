@@ -1,0 +1,37 @@
+[
+  {
+    "id": "pommes",
+    "name": "Pommes",
+    "aliases": ["pommes frites", "french fries", "fries", "fritten"],
+    "category": "food",
+    "prompt_subject": "a portion of french fries in a paper cone"
+  },
+  {
+    "id": "currywurst",
+    "name": "Currywurst",
+    "aliases": ["curry wurst", "curry sausage"],
+    "category": "food",
+    "prompt_subject": "a currywurst with curry sauce and curry powder"
+  },
+  {
+    "id": "hamburger",
+    "name": "Hamburger",
+    "aliases": ["burger", "cheeseburger"],
+    "category": "food",
+    "prompt_subject": "a hamburger with lettuce, tomato, and cheese"
+  },
+  {
+    "id": "wasser",
+    "name": "Wasser",
+    "aliases": ["water", "mineralwasser", "sprudel"],
+    "category": "drink",
+    "prompt_subject": "a glass bottle of mineral water with a glass"
+  },
+  {
+    "id": "apfelschorle",
+    "name": "Apfelschorle",
+    "aliases": ["apple spritzer", "apfelsaft gespritzt"],
+    "category": "drink",
+    "prompt_subject": "a glass of apple spritzer (Apfelschorle)"
+  }
+]

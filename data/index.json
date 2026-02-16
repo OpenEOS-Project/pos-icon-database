@@ -1,0 +1,55 @@
+[
+  {
+    "id": "pommes",
+    "terms": [
+      "pommes",
+      "pommes frites",
+      "french fries",
+      "fries",
+      "fritten",
+      "food"
+    ],
+    "icon256": "pommes.png"
+  },
+  {
+    "id": "currywurst",
+    "terms": [
+      "currywurst",
+      "curry wurst",
+      "curry sausage",
+      "food"
+    ],
+    "icon256": "currywurst.png"
+  },
+  {
+    "id": "hamburger",
+    "terms": [
+      "hamburger",
+      "burger",
+      "cheeseburger",
+      "food"
+    ],
+    "icon256": "hamburger.png"
+  },
+  {
+    "id": "wasser",
+    "terms": [
+      "wasser",
+      "water",
+      "mineralwasser",
+      "sprudel",
+      "drink"
+    ],
+    "icon256": "wasser.png"
+  },
+  {
+    "id": "apfelschorle",
+    "terms": [
+      "apfelschorle",
+      "apple spritzer",
+      "apfelsaft gespritzt",
+      "drink"
+    ],
+    "icon256": "apfelschorle.png"
+  }
+]

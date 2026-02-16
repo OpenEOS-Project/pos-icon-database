@@ -1,0 +1,205 @@
+[
+  {
+    "id": "schnitzel",
+    "name": "Schnitzel",
+    "aliases": ["wiener schnitzel", "paniertes schnitzel", "cutlet"],
+    "category": "food",
+    "prompt_subject": "a breaded schnitzel on a plate"
+  },
+  {
+    "id": "pommes",
+    "name": "Pommes",
+    "aliases": ["pommes frites", "french fries", "fries", "fritten"],
+    "category": "food",
+    "prompt_subject": "a portion of french fries in a paper cone"
+  },
+  {
+    "id": "bratwurst",
+    "name": "Bratwurst",
+    "aliases": ["wurst", "grillwurst", "sausage"],
+    "category": "food",
+    "prompt_subject": "a grilled bratwurst sausage"
+  },
+  {
+    "id": "currywurst",
+    "name": "Currywurst",
+    "aliases": ["curry wurst", "curry sausage"],
+    "category": "food",
+    "prompt_subject": "a currywurst with curry sauce and curry powder"
+  },
+  {
+    "id": "leberkaese",
+    "name": "Leberkäse",
+    "aliases": ["leberkäs", "fleischkäse", "meat loaf"],
+    "category": "food",
+    "prompt_subject": "a slice of Leberkäse (German meatloaf) in a bread roll"
+  },
+  {
+    "id": "flammkuchen",
+    "name": "Flammkuchen",
+    "aliases": ["tarte flambée", "flame cake"],
+    "category": "food",
+    "prompt_subject": "a Flammkuchen (tarte flambée) with onions and bacon"
+  },
+  {
+    "id": "brezel",
+    "name": "Brezel",
+    "aliases": ["bretzel", "pretzel", "breze", "brezn"],
+    "category": "food",
+    "prompt_subject": "a traditional Bavarian pretzel"
+  },
+  {
+    "id": "pizza",
+    "name": "Pizza",
+    "aliases": ["pizza slice"],
+    "category": "food",
+    "prompt_subject": "a whole pizza with cheese and tomato"
+  },
+  {
+    "id": "hamburger",
+    "name": "Hamburger",
+    "aliases": ["burger", "cheeseburger"],
+    "category": "food",
+    "prompt_subject": "a hamburger with lettuce, tomato, and cheese"
+  },
+  {
+    "id": "hotdog",
+    "name": "Hotdog",
+    "aliases": ["hot dog", "frankfurter"],
+    "category": "food",
+    "prompt_subject": "a hotdog with mustard in a bun"
+  },
+  {
+    "id": "kartoffelsalat",
+    "name": "Kartoffelsalat",
+    "aliases": ["potato salad"],
+    "category": "food",
+    "prompt_subject": "a bowl of potato salad"
+  },
+  {
+    "id": "grillhaehnchen",
+    "name": "Grillhähnchen",
+    "aliases": ["hähnchen", "brathähnchen", "chicken", "roast chicken", "hendl"],
+    "category": "food",
+    "prompt_subject": "a roasted whole chicken"
+  },
+  {
+    "id": "bier",
+    "name": "Bier",
+    "aliases": ["beer", "helles", "pils", "pilsner"],
+    "category": "drink",
+    "prompt_subject": "a glass of golden beer with foam"
+  },
+  {
+    "id": "weizen",
+    "name": "Weizen",
+    "aliases": ["weissbier", "weißbier", "wheat beer", "hefeweizen"],
+    "category": "drink",
+    "prompt_subject": "a tall glass of wheat beer (Weizen)"
+  },
+  {
+    "id": "radler",
+    "name": "Radler",
+    "aliases": ["shandy", "alsterwasser"],
+    "category": "drink",
+    "prompt_subject": "a glass of Radler (beer mixed with lemon soda)"
+  },
+  {
+    "id": "cola",
+    "name": "Cola",
+    "aliases": ["coke", "coca cola"],
+    "category": "drink",
+    "prompt_subject": "a glass of cola with ice"
+  },
+  {
+    "id": "fanta",
+    "name": "Fanta",
+    "aliases": ["orangenlimo", "orange soda", "orangenlimonade"],
+    "category": "drink",
+    "prompt_subject": "a glass of orange soda"
+  },
+  {
+    "id": "sprite",
+    "name": "Sprite",
+    "aliases": ["zitronenlimo", "lemon soda", "zitronenlimonade"],
+    "category": "drink",
+    "prompt_subject": "a glass of clear lemon-lime soda with bubbles"
+  },
+  {
+    "id": "wasser",
+    "name": "Wasser",
+    "aliases": ["water", "mineralwasser", "sprudel"],
+    "category": "drink",
+    "prompt_subject": "a glass bottle of mineral water with a glass"
+  },
+  {
+    "id": "apfelschorle",
+    "name": "Apfelschorle",
+    "aliases": ["apple spritzer", "apfelsaft gespritzt"],
+    "category": "drink",
+    "prompt_subject": "a glass of apple spritzer (Apfelschorle)"
+  },
+  {
+    "id": "kaffee",
+    "name": "Kaffee",
+    "aliases": ["coffee", "espresso"],
+    "category": "drink",
+    "prompt_subject": "a cup of coffee with steam"
+  },
+  {
+    "id": "tee",
+    "name": "Tee",
+    "aliases": ["tea"],
+    "category": "drink",
+    "prompt_subject": "a cup of tea with a teabag"
+  },
+  {
+    "id": "ketchup",
+    "name": "Ketchup",
+    "aliases": ["tomato ketchup", "tomatenketchup"],
+    "category": "side",
+    "prompt_subject": "a small portion cup of red ketchup"
+  },
+  {
+    "id": "mayonnaise",
+    "name": "Mayonnaise",
+    "aliases": ["mayo", "majo"],
+    "category": "side",
+    "prompt_subject": "a small portion cup of white mayonnaise"
+  },
+  {
+    "id": "senf",
+    "name": "Senf",
+    "aliases": ["mustard"],
+    "category": "side",
+    "prompt_subject": "a small portion cup of yellow mustard"
+  },
+  {
+    "id": "eis",
+    "name": "Eis",
+    "aliases": ["ice cream", "eiskugel", "gelato"],
+    "category": "dessert",
+    "prompt_subject": "an ice cream cone with two scoops"
+  },
+  {
+    "id": "kuchen",
+    "name": "Kuchen",
+    "aliases": ["cake", "torte"],
+    "category": "dessert",
+    "prompt_subject": "a slice of layered cake"
+  },
+  {
+    "id": "waffel",
+    "name": "Waffel",
+    "aliases": ["waffle", "belgian waffle"],
+    "category": "dessert",
+    "prompt_subject": "a waffle with powdered sugar"
+  },
+  {
+    "id": "crepe",
+    "name": "Crêpe",
+    "aliases": ["crepe", "pfannkuchen", "pancake"],
+    "category": "dessert",
+    "prompt_subject": "a folded crêpe with chocolate sauce"
+  }
+]
