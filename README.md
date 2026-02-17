@@ -80,6 +80,28 @@ Icons können auch ohne Installation direkt über die GitHub Raw-URL eingebunden
 
 Basis-URL: `https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/{id}.png`
 
+## Verfügbare Icons
+
+<!-- ICON-TABLE-START -->
+**5 Produkte** (5/5 Icons generiert)
+
+### Food
+
+| Icon | Name | ID | Aliase |
+|:----:|------|-----|--------|
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/pommes.png" width="48" height="48" alt="Pommes" /> | **Pommes** | `pommes` | pommes frites, french fries, fries, fritten |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/currywurst.png" width="48" height="48" alt="Currywurst" /> | **Currywurst** | `currywurst` | curry wurst, curry sausage |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/hamburger.png" width="48" height="48" alt="Hamburger" /> | **Hamburger** | `hamburger` | burger, cheeseburger |
+
+### Drinks
+
+| Icon | Name | ID | Aliase |
+|:----:|------|-----|--------|
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/wasser.png" width="48" height="48" alt="Wasser" /> | **Wasser** | `wasser` | water, mineralwasser, sprudel |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/apfelschorle.png" width="48" height="48" alt="Apfelschorle" /> | **Apfelschorle** | `apfelschorle` | apple spritzer, apfelsaft gespritzt |
+
+<!-- ICON-TABLE-END -->
+
 ## Icons generieren
 
 Icons werden per OpenAI-API (gpt-image-1) erzeugt.
@@ -116,6 +138,14 @@ node scripts/generate-icons.mjs --product pommes --force
 pnpm run build-index
 ```
 
+### README Icon-Tabelle aktualisieren
+
+Die Icon-Tabelle in dieser README wird automatisch aus `data/products.json` generiert:
+
+```bash
+pnpm run build-readme
+```
+
 ## Projekt-Struktur
 
 ```
@@ -136,15 +166,6 @@ src/
   PosIcon.tsx    # React-Komponente
   types.ts       # TypeScript-Typen
 ```
-
-## Kategorien
-
-| Kategorie | Produkte |
-|-----------|----------|
-| food | Schnitzel, Pommes, Bratwurst, Currywurst, Leberkäse, Flammkuchen, Brezel, Pizza, Hamburger, Hotdog, Kartoffelsalat, Grillhähnchen |
-| drink | Bier, Weizen, Radler, Cola, Fanta, Sprite, Wasser, Apfelschorle, Kaffee, Tee |
-| side | Ketchup, Mayonnaise, Senf |
-| dessert | Eis, Kuchen, Waffel, Crêpe |
 
 ## NPM veröffentlichen
 

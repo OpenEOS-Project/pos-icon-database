@@ -20,6 +20,7 @@
     "build": "tsup",
     "generate": "node --env-file=.env scripts/generate-icons.mjs",
     "build-index": "node scripts/build-index.mjs",
+    "build-readme": "node scripts/build-readme.mjs",
     "prepublishOnly": "npm run build-index && npm run build"
   },
   "peerDependencies": {
