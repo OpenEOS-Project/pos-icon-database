@@ -4,7 +4,6 @@ Consistent, AI-generated food & drink icons for point-of-sale systems.
 
 ## Features
 
-- ~30 icons for typical event and club catering products (food, drinks, sides, desserts)
 - Flat/minimal design, white background
 - 256x256px PNG icons
 - React component `<PosIcon />`
