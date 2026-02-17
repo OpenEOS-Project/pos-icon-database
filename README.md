@@ -169,34 +169,37 @@ src/
 
 ## NPM veröffentlichen
 
-  1. NPM Account & Login
+### Erstmalige Einrichtung
 
-  npm login
+1. **NPM Login:**
 
-  2. Organisation anlegen (einmalig)
+   ```bash
+   npm login
+   ```
 
-  Da das Paket unter @openeos/ gescoped ist, brauchst du eine NPM-Organisation namens openeos. Erstelle sie unter https://www.npmjs.com/org/create – oder publiziere ohne Scope.
+2. **Organisation anlegen** (einmalig):
 
-  3. Icons generieren + publizieren
+   Da das Paket unter `@openeos/` gescoped ist, wird eine NPM-Organisation `openeos` benötigt.
+   Erstelle sie unter https://www.npmjs.com/org/create.
 
-  pnpm run generate          # Icons erzeugen (OpenAI API)
-  pnpm run build-index       # Suchindex bauen
-  pnpm publish --access public
+### Erstveröffentlichung
 
-  prepublishOnly führt automatisch build-index + build nochmal aus, aber die Icons müssen vorher da sein.
+```bash
+pnpm run generate            # Icons erzeugen (OpenAI API)
+pnpm run build-index         # Suchindex bauen
+pnpm run build-readme        # README aktualisieren
+pnpm publish --access public
+```
 
-  Wichtig:
-  - --access public ist nötig bei scoped Packages (sonst versucht NPM ein kostenpflichtiges privates Paket)
-  - Falls du keine NPM-Org willst, ändere den Namen in package.json zu z.B. openeos-pos-icons (ohne Scope)
+> `--access public` ist bei scoped Packages Pflicht, sonst versucht NPM ein kostenpflichtiges privates Paket zu erstellen.
+> `prepublishOnly` führt automatisch `build-index` + `build` aus, die Icons müssen aber vorher generiert sein.
 
-  Spätere Updates:
+### Updates veröffentlichen
 
-  # Version hochzählen
-  npm version patch   # 0.1.0 → 0.1.1
-  # oder: npm version minor / npm version major
-
-  # Publizieren
-  pnpm publish --access public
+```bash
+npm version patch   # 0.1.0 → 0.1.1 (oder: minor / major)
+pnpm publish --access public
+```
 
 
 ## Lizenz
