@@ -2,6 +2,7 @@ export interface PosIconEntry {
   id: string;
   terms: string[];
   icon256: string;
+  dataUri: string;
 }
 
 export interface PosIconProps {

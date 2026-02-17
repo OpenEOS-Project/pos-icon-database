@@ -17,7 +17,7 @@ const END_MARKER = '<!-- ICON-TABLE-END -->';
 const CATEGORY_LABELS = {
   food: 'Food',
   drink: 'Drinks',
-  side: 'Beilagen',
+  side: 'Sides',
   dessert: 'Desserts',
 };
 
@@ -40,14 +40,14 @@ function main() {
   for (const [category, items] of Object.entries(categories)) {
     const label = CATEGORY_LABELS[category] || category;
     sections.push(`### ${label}\n`);
-    sections.push('| Icon | Name | ID | Aliase |');
-    sections.push('|:----:|------|-----|--------|');
+    sections.push('| Icon | Name | ID | Aliases |');
+    sections.push('|:----:|------|-----|---------|');
 
     for (const item of items) {
       const hasIcon = fs.existsSync(path.join(ICONS_256, `${item.id}.png`));
       const iconCell = hasIcon
         ? `<img src="${BASE_URL}/${item.id}.png" width="48" height="48" alt="${item.name}" />`
-        : '_fehlt_';
+        : '_missing_';
       const aliases = item.aliases.join(', ');
       sections.push(`| ${iconCell} | **${item.name}** | \`${item.id}\` | ${aliases} |`);
     }
@@ -61,7 +61,7 @@ function main() {
   ).length;
 
   const table = [
-    `**${totalCount} Produkte** (${iconCount}/${totalCount} Icons generiert)\n`,
+    `**${totalCount} products** (${iconCount}/${totalCount} icons generated)\n`,
     ...sections,
   ].join('\n');
 
@@ -83,7 +83,7 @@ function main() {
     readme.substring(endIdx);
 
   fs.writeFileSync(README_PATH, newReadme);
-  console.log(`README updated: ${totalCount} Produkte, ${iconCount} Icons`);
+  console.log(`README updated: ${totalCount} products, ${iconCount} icons`);
 }
 
 main();

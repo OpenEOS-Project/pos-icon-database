@@ -36,10 +36,16 @@ function main() {
     // Deduplicate
     const uniqueTerms = [...new Set(terms)];
 
+    // Embed icon as base64 data URI for bundler compatibility
+    const iconData = fs.readFileSync(iconPath);
+    const base64 = iconData.toString('base64');
+    const dataUri = `data:image/png;base64,${base64}`;
+
     index.push({
       id: product.id,
       terms: uniqueTerms,
       icon256: iconFile,
+      dataUri,
     });
   }
 

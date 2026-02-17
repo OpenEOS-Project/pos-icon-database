@@ -1,15 +1,15 @@
 # @openeos/pos-icons
 
-Konsistente, KI-generierte Food & Drink Icons für Kassensysteme (POS).
+Consistent, AI-generated food & drink icons for point-of-sale systems.
 
 ## Features
 
-- ~30 Icons für typische Vereinsfest-Produkte (Food, Drinks, Sides, Desserts)
-- Flat/Minimal Design, weißer Hintergrund
-- 256×256px PNG Icons
-- React-Komponente `<PosIcon />`
-- Suchfunktion über Name, Aliase und Kategorie
-- TypeScript-Typen
+- ~30 icons for typical event and club catering products (food, drinks, sides, desserts)
+- Flat/minimal design, white background
+- 256x256px PNG icons
+- React component `<PosIcon />`
+- Search function by name, aliases, and category
+- TypeScript types
 
 ## Installation
 
@@ -17,9 +17,9 @@ Konsistente, KI-generierte Food & Drink Icons für Kassensysteme (POS).
 pnpm add @openeos/pos-icons
 ```
 
-## Nutzung
+## Usage
 
-### React-Komponente
+### React Component
 
 ```tsx
 import { PosIcon } from '@openeos/pos-icons';
@@ -28,34 +28,34 @@ import { PosIcon } from '@openeos/pos-icons';
 <PosIcon id="bier" size={128} className="rounded" />
 ```
 
-### Suchfunktion
+### Search Function
 
 ```ts
 import { searchIcons, getIcon, getAllIcons } from '@openeos/pos-icons';
 
-// Suche nach Stichwort
+// Search by keyword
 const results = searchIcons('pom');
 // → [{ id: 'pommes', terms: [...], icon256: 'pommes.png' }]
 
-// Einzelnes Icon per ID
+// Get single icon by ID
 const icon = getIcon('bier');
 
-// Alle Icons
+// Get all icons
 const all = getAllIcons();
 ```
 
-### Ohne React (plain JS/HTML)
+### Without React (plain JS/HTML)
 
 ```js
 import { searchIcons, getIcon } from '@openeos/pos-icons';
 
-// Icon-Eintrag holen
+// Get icon entry
 const icon = getIcon('pommes');
 
-// Pfad zum PNG im node_modules-Ordner
+// Path to PNG in node_modules
 const iconPath = `node_modules/@openeos/pos-icons/icons/256/${icon.icon256}`;
 
-// Beispiel: <img> dynamisch erstellen
+// Example: create <img> dynamically
 const img = document.createElement('img');
 img.src = iconPath;
 img.width = 64;
@@ -64,112 +64,113 @@ img.alt = 'Pommes';
 document.body.appendChild(img);
 ```
 
-Oder direkt im HTML:
+Or directly in HTML:
 
 ```html
 <img src="node_modules/@openeos/pos-icons/icons/256/pommes.png" width="64" height="64" alt="Pommes" />
 ```
 
-### Direkt von GitHub (ohne NPM)
+### Directly from GitHub (without NPM)
 
-Icons können auch ohne Installation direkt über die GitHub Raw-URL eingebunden werden:
+Icons can also be used directly via GitHub raw URL without installation:
 
 ```html
 <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/pommes.png" width="64" height="64" alt="Pommes" />
 ```
 
-Basis-URL: `https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/{id}.png`
+Base URL: `https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/{id}.png`
 
-## Verfügbare Icons
+## Available Icons
 
 <!-- ICON-TABLE-START -->
-**5 Produkte** (5/5 Icons generiert)
+**5 products** (5/5 icons generated)
 
 ### Food
 
-| Icon | Name | ID | Aliase |
-|:----:|------|-----|--------|
+| Icon | Name | ID | Aliases |
+|:----:|------|-----|---------|
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/pommes.png" width="48" height="48" alt="Pommes" /> | **Pommes** | `pommes` | pommes frites, french fries, fries, fritten |
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/currywurst.png" width="48" height="48" alt="Currywurst" /> | **Currywurst** | `currywurst` | curry wurst, curry sausage |
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/hamburger.png" width="48" height="48" alt="Hamburger" /> | **Hamburger** | `hamburger` | burger, cheeseburger |
 
 ### Drinks
 
-| Icon | Name | ID | Aliase |
-|:----:|------|-----|--------|
+| Icon | Name | ID | Aliases |
+|:----:|------|-----|---------|
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/wasser.png" width="48" height="48" alt="Wasser" /> | **Wasser** | `wasser` | water, mineralwasser, sprudel |
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/apfelschorle.png" width="48" height="48" alt="Apfelschorle" /> | **Apfelschorle** | `apfelschorle` | apple spritzer, apfelsaft gespritzt |
 
 <!-- ICON-TABLE-END -->
 
-## Icons generieren
+## Generating Icons
 
-Icons werden per OpenAI-API (gpt-image-1) erzeugt.
+Icons are generated using the OpenAI API (gpt-image-1).
 
 ### Setup
 
 ```bash
 cp .env.example .env
-# OPENAI_API_KEY in .env eintragen
+# Add your OPENAI_API_KEY to .env
 pnpm install
 ```
 
-### Alle fehlenden Icons generieren
+### Generate all missing icons
 
 ```bash
 pnpm run generate
 ```
 
-### Einzelnes Icon generieren
+### Generate a single icon
 
 ```bash
 node scripts/generate-icons.mjs --product pommes
 ```
 
-### Icon erzwingen (überschreiben)
+### Force regenerate (overwrite)
 
 ```bash
 node scripts/generate-icons.mjs --product pommes --force
 ```
 
-### Suchindex neu bauen
+### Rebuild search index
 
 ```bash
 pnpm run build-index
 ```
 
-### README Icon-Tabelle aktualisieren
+### Update README icon table
 
-Die Icon-Tabelle in dieser README wird automatisch aus `data/products.json` generiert:
+The icon table in this README is auto-generated from `data/products.json`:
 
 ```bash
 pnpm run build-readme
 ```
 
-## Projekt-Struktur
+## Project Structure
 
 ```
 icons/
-  1024/          # Master-Icons (1024×1024, KI-generiert)
-  256/           # POS-Icons (256×256, resized)
+  1024/          # Master icons (1024x1024, AI-generated)
+  256/           # POS icons (256x256, resized)
 data/
-  products.json  # Produktdatenbank
-  index.json     # Suchindex (auto-generiert)
+  products.json  # Product database
+  index.json     # Search index (auto-generated)
 prompts/
-  master-prompt.txt  # KI-Stil-Prompt
+  master-prompt.txt  # AI style prompt
 scripts/
-  generate-icons.mjs  # OpenAI Icon-Generator
-  build-index.mjs     # Suchindex-Builder
+  generate-icons.mjs  # OpenAI icon generator
+  build-index.mjs     # Search index builder
+  build-readme.mjs    # README table generator
 src/
-  index.ts       # Hauptexport
-  search.ts      # Suchfunktion
-  PosIcon.tsx    # React-Komponente
-  types.ts       # TypeScript-Typen
+  index.ts       # Main exports
+  search.ts      # Search function
+  PosIcon.tsx    # React component
+  types.ts       # TypeScript types
 ```
 
-## NPM veröffentlichen
+## Publishing to NPM
 
-### Erstmalige Einrichtung
+### Initial Setup
 
 1. **NPM Login:**
 
@@ -177,31 +178,30 @@ src/
    npm login
    ```
 
-2. **Organisation anlegen** (einmalig):
+2. **Create organization** (once):
 
-   Da das Paket unter `@openeos/` gescoped ist, wird eine NPM-Organisation `openeos` benötigt.
-   Erstelle sie unter https://www.npmjs.com/org/create.
+   Since the package is scoped under `@openeos/`, an NPM organization `openeos` is required.
+   Create one at https://www.npmjs.com/org/create.
 
-### Erstveröffentlichung
+### First Publish
 
 ```bash
-pnpm run generate            # Icons erzeugen (OpenAI API)
-pnpm run build-index         # Suchindex bauen
-pnpm run build-readme        # README aktualisieren
+pnpm run generate            # Generate icons (OpenAI API)
+pnpm run build-index         # Build search index
+pnpm run build-readme        # Update README
 pnpm publish --access public
 ```
 
-> `--access public` ist bei scoped Packages Pflicht, sonst versucht NPM ein kostenpflichtiges privates Paket zu erstellen.
-> `prepublishOnly` führt automatisch `build-index` + `build` aus, die Icons müssen aber vorher generiert sein.
+> `--access public` is required for scoped packages, otherwise NPM will attempt to create a paid private package.
+> `prepublishOnly` automatically runs `build-index` + `build`, but icons must be generated beforehand.
 
-### Updates veröffentlichen
+### Publishing Updates
 
 ```bash
-npm version patch   # 0.1.0 → 0.1.1 (oder: minor / major)
+npm version patch   # 0.1.0 → 0.1.1 (or: minor / major)
 pnpm publish --access public
 ```
 
-
-## Lizenz
+## License
 
 CC0-1.0 – Public Domain

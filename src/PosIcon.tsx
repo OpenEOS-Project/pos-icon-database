@@ -9,12 +9,9 @@ export function PosIcon({ id, size = 256, className, alt }: PosIconProps): React
     return null;
   }
 
-  // Build path relative to the package root
-  const iconSrc = new URL(`../icons/256/${entry.icon256}`, import.meta.url).href;
-
   return (
     <img
-      src={iconSrc}
+      src={entry.dataUri}
       width={size}
       height={size}
       alt={alt ?? entry.id}
