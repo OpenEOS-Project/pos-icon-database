@@ -1,6 +1,6 @@
 {
   "name": "@openeos/pos-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Konsistente, KI-generierte Food & Drink Icons für Kassensysteme",
   "type": "module",
   "main": "dist/index.js",
@@ -48,6 +48,9 @@
     "url": "https://github.com/OpenEOS-Project/pos-icon-database"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["esbuild", "sharp"]
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
   }
 }
