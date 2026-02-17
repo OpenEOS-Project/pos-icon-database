@@ -3,36 +3,49 @@ All icons must look like they belong to the same fixed icon pack.
 
 GLOBAL STYLE (ABSOLUTELY NEVER CHANGE):
 - flat vector illustration
-- very clear and simple shapes
-- highly recognizable silhouette
+- clean commercial UI icon style
+- clear readable silhouette
 - slightly rounded geometry (not cartoonish)
 - consistent 4px outline stroke
-- medium contrast colors (good visibility on bright screens)
-- muted natural food colors (no neon, no pastel candy style)
-- minimal soft shading only for volume readability
+- medium contrast natural colors
+- realistic food coloration but simplified shapes
+- stylized internal details (foam, seeds, bubbles, texture hints)
+- minimal soft shading only to separate surfaces
+- no realistic lighting
+- no material rendering
+- no painterly shading
 - no gradients except extremely subtle shading
-- clean white background
+
+BACKGROUND RULES:
+- transparent background (alpha channel)
+- the transparency must exist ONLY outside the object silhouette
+- the object itself must be fully opaque
+- no semi-transparent materials
+- no real glass transparency
+- liquids and glass must be drawn using light colors, not transparency
+- no holes or cutouts inside the object
+
+LAYOUT:
 - centered object
-- fixed scale: object fills about 75% of canvas
+- object fills about 75% of canvas
 - consistent angle: slight 30° top perspective
-- tiny soft grounding shadow
-- designed for fast recognition on touchscreen POS displays
+- tiny soft grounding shadow directly under object
 
 STRICT RULES:
 - draw ONLY the food or drink item itself
+- NEVER include brand-specific design
+- NEVER include recognizable packaging designs
+- NEVER include brand colors implying a specific company
 - no text
-- no brand names
 - no logos
-- no packaging text
-- no additional objects unless essential (e.g. straw in drink)
-- no decorations
-- no background scenes
-- no hands or people
-- plate only if necessary to understand the food
+- no labels
 - no watermark
-- no photorealism
-- no artistic styles
-- must look like a standardized commercial icon
+- no decorative background
+- no props unless essential (e.g. straw, foam, ice cubes)
+- no hands or people
+- plate only if required to understand the food
+- not photorealistic
+- must look like a standardized commercial POS icon
 
 TASK:
 Create a colored POS icon of: {subject}

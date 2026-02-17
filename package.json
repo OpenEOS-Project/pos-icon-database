@@ -44,7 +44,7 @@
   "license": "CC0-1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openeos/pos-icon-database"
+    "url": "https://github.com/OpenEOS-Project/pos-icon-database"
   },
   "pnpm": {
     "onlyBuiltDependencies": ["esbuild", "sharp"]

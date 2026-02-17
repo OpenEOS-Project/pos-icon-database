@@ -44,6 +44,42 @@ const icon = getIcon('bier');
 const all = getAllIcons();
 ```
 
+### Ohne React (plain JS/HTML)
+
+```js
+import { searchIcons, getIcon } from '@openeos/pos-icons';
+
+// Icon-Eintrag holen
+const icon = getIcon('pommes');
+
+// Pfad zum PNG im node_modules-Ordner
+const iconPath = `node_modules/@openeos/pos-icons/icons/256/${icon.icon256}`;
+
+// Beispiel: <img> dynamisch erstellen
+const img = document.createElement('img');
+img.src = iconPath;
+img.width = 64;
+img.height = 64;
+img.alt = 'Pommes';
+document.body.appendChild(img);
+```
+
+Oder direkt im HTML:
+
+```html
+<img src="node_modules/@openeos/pos-icons/icons/256/pommes.png" width="64" height="64" alt="Pommes" />
+```
+
+### Direkt von GitHub (ohne NPM)
+
+Icons können auch ohne Installation direkt über die GitHub Raw-URL eingebunden werden:
+
+```html
+<img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/pommes.png" width="64" height="64" alt="Pommes" />
+```
+
+Basis-URL: `https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/{id}.png`
+
 ## Icons generieren
 
 Icons werden per OpenAI-API (gpt-image-1) erzeugt.
@@ -109,6 +145,38 @@ src/
 | drink | Bier, Weizen, Radler, Cola, Fanta, Sprite, Wasser, Apfelschorle, Kaffee, Tee |
 | side | Ketchup, Mayonnaise, Senf |
 | dessert | Eis, Kuchen, Waffel, Crêpe |
+
+## NPM veröffentlichen
+
+  1. NPM Account & Login
+
+  npm login
+
+  2. Organisation anlegen (einmalig)
+
+  Da das Paket unter @openeos/ gescoped ist, brauchst du eine NPM-Organisation namens openeos. Erstelle sie unter https://www.npmjs.com/org/create – oder publiziere ohne Scope.
+
+  3. Icons generieren + publizieren
+
+  pnpm run generate          # Icons erzeugen (OpenAI API)
+  pnpm run build-index       # Suchindex bauen
+  pnpm publish --access public
+
+  prepublishOnly führt automatisch build-index + build nochmal aus, aber die Icons müssen vorher da sein.
+
+  Wichtig:
+  - --access public ist nötig bei scoped Packages (sonst versucht NPM ein kostenpflichtiges privates Paket)
+  - Falls du keine NPM-Org willst, ändere den Namen in package.json zu z.B. openeos-pos-icons (ohne Scope)
+
+  Spätere Updates:
+
+  # Version hochzählen
+  npm version patch   # 0.1.0 → 0.1.1
+  # oder: npm version minor / npm version major
+
+  # Publizieren
+  pnpm publish --access public
+
 
 ## Lizenz
 
