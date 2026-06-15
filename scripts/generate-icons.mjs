@@ -87,7 +87,10 @@ async function main() {
       continue;
     }
 
-    const prompt = promptTemplate.replace('{subject}', product.prompt_subject);
+    let prompt = promptTemplate.replace('{subject}', product.prompt_subject);
+    if (product.prompt_extra) {
+      prompt += `\n\n${product.prompt_extra}`;
+    }
 
     console.log(`[${completed + 1}/${total}] ${product.name} – generating...`);
 

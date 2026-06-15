@@ -82,7 +82,7 @@ Base URL: `https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/m
 ## Available Icons
 
 <!-- ICON-TABLE-START -->
-**5 products** (5/5 icons generated)
+**27 products** (27/27 icons generated)
 
 ### Food
 
@@ -91,6 +91,13 @@ Base URL: `https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/m
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/pommes.png" width="48" height="48" alt="Pommes" /> | **Pommes** | `pommes` | pommes frites, french fries, fries, fritten |
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/currywurst.png" width="48" height="48" alt="Currywurst" /> | **Currywurst** | `currywurst` | curry wurst, curry sausage |
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/hamburger.png" width="48" height="48" alt="Hamburger" /> | **Hamburger** | `hamburger` | burger, cheeseburger |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/grillwurst.png" width="48" height="48" alt="Grillwurst" /> | **Grillwurst** | `grillwurst` | bratwurst, grilled sausage, rostbratwurst |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/steak.png" width="48" height="48" alt="Steak" /> | **Steak** | `steak` | schweinesteak, pork steak, kräuterbutter |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/baconburger.png" width="48" height="48" alt="Baconburger" /> | **Baconburger** | `baconburger` | bacon burger, speckburger |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/double-fire-burger.png" width="48" height="48" alt="Double-Fire-Burger" /> | **Double-Fire-Burger** | `double-fire-burger` | fire burger, spicy burger, jalapeno burger |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/striebele.png" width="48" height="48" alt="Striebele" /> | **Striebele** | `striebele` | funnel cake, strauben, ausgezogene, schmalzgebäck |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/crepes-puderzucker.png" width="48" height="48" alt="Crêpes mit Puderzucker" /> | **Crêpes mit Puderzucker** | `crepes-puderzucker` | crepe puderzucker, crepe sugar, crepes zucker |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/crepes-nutella.png" width="48" height="48" alt="Crêpes mit Nutella" /> | **Crêpes mit Nutella** | `crepes-nutella` | crepe nutella, crepe chocolate, schoko crepe |
 
 ### Drinks
 
@@ -98,6 +105,21 @@ Base URL: `https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/m
 |:----:|------|-----|---------|
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/wasser.png" width="48" height="48" alt="Wasser" /> | **Wasser** | `wasser` | water, mineralwasser, sprudel |
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/apfelschorle.png" width="48" height="48" alt="Apfelschorle" /> | **Apfelschorle** | `apfelschorle` | apple spritzer, apfelsaft gespritzt |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/johannisbeerschorle.png" width="48" height="48" alt="Johannisbeerschorle" /> | **Johannisbeerschorle** | `johannisbeerschorle` | currant spritzer, red currant spritzer, johannisbeere |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/spezi.png" width="48" height="48" alt="Spezi" /> | **Spezi** | `spezi` | paulaner spezi, cola orange, cola mix |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/limo-orange.png" width="48" height="48" alt="Limo Orange" /> | **Limo Orange** | `limo-orange` | orangenlimo, orange lemonade, orangenlimonade |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/limo-zitrone.png" width="48" height="48" alt="Limo Zitrone" /> | **Limo Zitrone** | `limo-zitrone` | zitronenlimo, lemon lemonade, zitronenlimonade |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/cola.png" width="48" height="48" alt="Cola" /> | **Cola** | `cola` | coca cola, coke, kola |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/cola-zero.png" width="48" height="48" alt="Cola Zero" /> | **Cola Zero** | `cola-zero` | coca cola zero, coke zero, cola light, zero |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/eistee.png" width="48" height="48" alt="Eistee Pfirsich" /> | **Eistee Pfirsich** | `eistee` | iced tea, eistee pfirsich, peach iced tea, ice tea |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/almdudler.png" width="48" height="48" alt="Almdudler" /> | **Almdudler** | `almdudler` | herbal lemonade, kräuterlimonade, alpine herb soda |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/pils.png" width="48" height="48" alt="Pils" /> | **Pils** | `pils` | bier, beer, pilsner, helles |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/radler.png" width="48" height="48" alt="Radler" /> | **Radler** | `radler` | shandy, alster, beer lemonade |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/weisswein.png" width="48" height="48" alt="Weißwein" /> | **Weißwein** | `weisswein` | white wine, gutedel, weisswein, wein weiss |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/rotwein.png" width="48" height="48" alt="Rotwein" /> | **Rotwein** | `rotwein` | red wine, wein rot, rotwein |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/weinschorle-weiss.png" width="48" height="48" alt="Weinschorle weiß" /> | **Weinschorle weiß** | `weinschorle-weiss` | white wine spritzer, weisse weinschorle, gespritzter weiss |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/weinschorle-rot.png" width="48" height="48" alt="Weinschorle rot" /> | **Weinschorle rot** | `weinschorle-rot` | red wine spritzer, rote weinschorle, gespritzter rot |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/gedeck.png" width="48" height="48" alt="Gedeck" /> | **Gedeck** | `gedeck` | wine and water, wein und wasser, flasche wein wasser |
 
 <!-- ICON-TABLE-END -->
 

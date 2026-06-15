@@ -33,5 +33,160 @@
     "aliases": ["apple spritzer", "apfelsaft gespritzt"],
     "category": "drink",
     "prompt_subject": "a glass of apple spritzer (Apfelschorle)"
+  },
+  {
+    "id": "grillwurst",
+    "name": "Grillwurst",
+    "aliases": ["bratwurst", "grilled sausage", "rostbratwurst"],
+    "category": "food",
+    "prompt_subject": "a grilled bratwurst sausage with a bread roll"
+  },
+  {
+    "id": "steak",
+    "name": "Steak",
+    "aliases": ["schweinesteak", "pork steak", "kräuterbutter"],
+    "category": "food",
+    "prompt_subject": "a grilled pork steak topped with a slice of herb butter, with a bread roll"
+  },
+  {
+    "id": "baconburger",
+    "name": "Baconburger",
+    "aliases": ["bacon burger", "speckburger"],
+    "category": "food",
+    "prompt_subject": "a hamburger with crispy bacon, lettuce, tomato and cheese"
+  },
+  {
+    "id": "double-fire-burger",
+    "name": "Double-Fire-Burger",
+    "aliases": ["fire burger", "spicy burger", "jalapeno burger"],
+    "category": "food",
+    "prompt_subject": "a spicy hamburger with jalapeños and red sriracha sauce, lettuce and tomato"
+  },
+  {
+    "id": "striebele",
+    "name": "Striebele",
+    "aliases": ["funnel cake", "strauben", "ausgezogene", "schmalzgebäck"],
+    "category": "food",
+    "prompt_subject": "a portion of deep-fried funnel cake strands (Striebele) dusted with powdered sugar"
+  },
+  {
+    "id": "crepes-puderzucker",
+    "name": "Crêpes mit Puderzucker",
+    "aliases": ["crepe puderzucker", "crepe sugar", "crepes zucker"],
+    "category": "food",
+    "prompt_subject": "a folded crêpe dusted with powdered sugar"
+  },
+  {
+    "id": "crepes-nutella",
+    "name": "Crêpes mit Nutella",
+    "aliases": ["crepe nutella", "crepe chocolate", "schoko crepe"],
+    "category": "food",
+    "prompt_subject": "a folded crêpe filled with chocolate hazelnut spread, with some spread oozing out"
+  },
+  {
+    "id": "johannisbeerschorle",
+    "name": "Johannisbeerschorle",
+    "aliases": ["currant spritzer", "red currant spritzer", "johannisbeere"],
+    "category": "drink",
+    "prompt_subject": "a glass of red currant spritzer (Johannisbeerschorle)"
+  },
+  {
+    "id": "spezi",
+    "name": "Spezi",
+    "aliases": ["paulaner spezi", "cola orange", "cola mix"],
+    "category": "drink",
+    "prompt_subject": "a glass of cola-orange soft drink mix with ice cubes"
+  },
+  {
+    "id": "limo-orange",
+    "name": "Limo Orange",
+    "aliases": ["orangenlimo", "orange lemonade", "orangenlimonade"],
+    "category": "drink",
+    "prompt_subject": "a glass of orange lemonade with ice cubes"
+  },
+  {
+    "id": "limo-zitrone",
+    "name": "Limo Zitrone",
+    "aliases": ["zitronenlimo", "lemon lemonade", "zitronenlimonade"],
+    "category": "drink",
+    "prompt_subject": "a glass of clear lemon lemonade with ice cubes and a lemon slice"
+  },
+  {
+    "id": "cola",
+    "name": "Cola",
+    "aliases": ["coca cola", "coke", "kola"],
+    "category": "drink",
+    "prompt_subject": "a glass of cola with ice cubes"
+  },
+  {
+    "id": "cola-zero",
+    "name": "Cola Zero",
+    "aliases": ["coca cola zero", "coke zero", "cola light", "zero"],
+    "category": "drink",
+    "prompt_subject": "a glass of cola with ice cubes",
+    "prompt_extra": "Exception to the no-text rule above: render the word \"ZERO\" in bold, clean, uppercase letters clearly across the front of the glass. This single word is explicitly allowed and required for this icon."
+  },
+  {
+    "id": "eistee",
+    "name": "Eistee Pfirsich",
+    "aliases": ["iced tea", "eistee pfirsich", "peach iced tea", "ice tea"],
+    "category": "drink",
+    "prompt_subject": "a glass of peach iced tea with ice cubes and a peach slice"
+  },
+  {
+    "id": "almdudler",
+    "name": "Almdudler",
+    "aliases": ["herbal lemonade", "kräuterlimonade", "alpine herb soda"],
+    "category": "drink",
+    "prompt_subject": "a glass of golden herbal lemonade (Almdudler) with ice cubes"
+  },
+  {
+    "id": "pils",
+    "name": "Pils",
+    "aliases": ["bier", "beer", "pilsner", "helles"],
+    "category": "drink",
+    "prompt_subject": "a glass of pilsner beer with a white foam head"
+  },
+  {
+    "id": "radler",
+    "name": "Radler",
+    "aliases": ["shandy", "alster", "beer lemonade"],
+    "category": "drink",
+    "prompt_subject": "a glass of radler shandy, beer mixed with lemonade, with a light foam head"
+  },
+  {
+    "id": "weisswein",
+    "name": "Weißwein",
+    "aliases": ["white wine", "gutedel", "weisswein", "wein weiss"],
+    "category": "drink",
+    "prompt_subject": "a glass of white wine"
+  },
+  {
+    "id": "rotwein",
+    "name": "Rotwein",
+    "aliases": ["red wine", "wein rot", "rotwein"],
+    "category": "drink",
+    "prompt_subject": "a glass of red wine"
+  },
+  {
+    "id": "weinschorle-weiss",
+    "name": "Weinschorle weiß",
+    "aliases": ["white wine spritzer", "weisse weinschorle", "gespritzter weiss"],
+    "category": "drink",
+    "prompt_subject": "a glass of white wine spritzer with a splash of sparkling water"
+  },
+  {
+    "id": "weinschorle-rot",
+    "name": "Weinschorle rot",
+    "aliases": ["red wine spritzer", "rote weinschorle", "gespritzter rot"],
+    "category": "drink",
+    "prompt_subject": "a glass of red wine spritzer with a splash of sparkling water"
+  },
+  {
+    "id": "gedeck",
+    "name": "Gedeck",
+    "aliases": ["wine and water", "wein und wasser", "flasche wein wasser"],
+    "category": "drink",
+    "prompt_subject": "a bottle of wine standing next to a bottle of water"
   }
 ]
