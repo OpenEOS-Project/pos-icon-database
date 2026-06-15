@@ -1,6 +1,6 @@
 {
   "name": "@openeos/pos-icons",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Konsistente, KI-generierte Food & Drink Icons für Kassensysteme",
   "type": "module",
   "main": "dist/index.js",
