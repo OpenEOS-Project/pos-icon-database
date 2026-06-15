@@ -39,7 +39,7 @@
     "name": "Grillwurst",
     "aliases": ["bratwurst", "grilled sausage", "rostbratwurst"],
     "category": "food",
-    "prompt_subject": "a grilled bratwurst sausage with a bread roll"
+    "prompt_subject": "a grilled bratwurst sausage"
   },
   {
     "id": "steak",
@@ -95,35 +95,35 @@
     "name": "Spezi",
     "aliases": ["paulaner spezi", "cola orange", "cola mix"],
     "category": "drink",
-    "prompt_subject": "a glass of cola-orange soft drink mix with ice cubes"
+    "prompt_subject": "a glass of cola-orange soft drink mix"
   },
   {
     "id": "limo-orange",
     "name": "Limo Orange",
     "aliases": ["orangenlimo", "orange lemonade", "orangenlimonade"],
     "category": "drink",
-    "prompt_subject": "a glass of orange lemonade with ice cubes"
+    "prompt_subject": "a glass of orange lemonade"
   },
   {
     "id": "limo-zitrone",
     "name": "Limo Zitrone",
     "aliases": ["zitronenlimo", "lemon lemonade", "zitronenlimonade"],
     "category": "drink",
-    "prompt_subject": "a glass of clear lemon lemonade with ice cubes and a lemon slice"
+    "prompt_subject": "a glass of clear lemon lemonade with a lemon slice"
   },
   {
     "id": "cola",
     "name": "Cola",
     "aliases": ["coca cola", "coke", "kola"],
     "category": "drink",
-    "prompt_subject": "a glass of cola with ice cubes"
+    "prompt_subject": "a glass of cola"
   },
   {
     "id": "cola-zero",
     "name": "Cola Zero",
     "aliases": ["coca cola zero", "coke zero", "cola light", "zero"],
     "category": "drink",
-    "prompt_subject": "a glass of cola with ice cubes",
+    "prompt_subject": "a glass of cola",
     "prompt_extra": "Exception to the no-text rule above: render the word \"ZERO\" in bold, clean, uppercase letters clearly across the front of the glass. This single word is explicitly allowed and required for this icon."
   },
   {
@@ -131,14 +131,14 @@
     "name": "Eistee Pfirsich",
     "aliases": ["iced tea", "eistee pfirsich", "peach iced tea", "ice tea"],
     "category": "drink",
-    "prompt_subject": "a glass of peach iced tea with ice cubes and a peach slice"
+    "prompt_subject": "a glass of peach iced tea with a peach slice"
   },
   {
     "id": "almdudler",
     "name": "Almdudler",
     "aliases": ["herbal lemonade", "kräuterlimonade", "alpine herb soda"],
     "category": "drink",
-    "prompt_subject": "a glass of golden herbal lemonade (Almdudler) with ice cubes"
+    "prompt_subject": "a glass of golden herbal lemonade (Almdudler)"
   },
   {
     "id": "pils",
@@ -188,5 +188,118 @@
     "aliases": ["wine and water", "wein und wasser", "flasche wein wasser"],
     "category": "drink",
     "prompt_subject": "a bottle of wine standing next to a bottle of water"
+  },
+  {
+    "id": "currywurst-brot",
+    "name": "Currywurst mit Brot",
+    "aliases": ["currywurst brot", "curry sausage with bread", "currywurst brötchen"],
+    "category": "food",
+    "prompt_subject": "a sliced currywurst with curry sauce and curry powder, served with a bread roll"
+  },
+  {
+    "id": "currywurst-pommes",
+    "name": "Currywurst mit Pommes",
+    "aliases": ["currywurst pommes", "curry sausage with fries", "currywurst fritten"],
+    "category": "food",
+    "prompt_subject": "a sliced currywurst with curry sauce and curry powder, served with a portion of french fries"
+  },
+  {
+    "id": "grillwurst-brot",
+    "name": "Grillwurst mit Brot",
+    "aliases": ["grillwurst brot", "bratwurst with bread", "grillwurst brötchen"],
+    "category": "food",
+    "prompt_subject": "a grilled bratwurst sausage served with a bread roll"
+  },
+  {
+    "id": "grillwurst-pommes",
+    "name": "Grillwurst mit Pommes",
+    "aliases": ["grillwurst pommes", "bratwurst with fries", "grillwurst fritten"],
+    "category": "food",
+    "prompt_subject": "a grilled bratwurst sausage served with a portion of french fries"
+  },
+  {
+    "id": "wasser-flasche",
+    "name": "Wasser (Flasche)",
+    "aliases": ["water bottle", "wasserflasche", "mineralwasser flasche"],
+    "category": "drink",
+    "prompt_subject": "a closed glass bottle of mineral water"
+  },
+  {
+    "id": "apfelschorle-flasche",
+    "name": "Apfelschorle (Flasche)",
+    "aliases": ["apple spritzer bottle", "apfelschorle flasche"],
+    "category": "drink",
+    "prompt_subject": "a closed glass bottle of apple spritzer"
+  },
+  {
+    "id": "johannisbeerschorle-flasche",
+    "name": "Johannisbeerschorle (Flasche)",
+    "aliases": ["currant spritzer bottle", "johannisbeerschorle flasche"],
+    "category": "drink",
+    "prompt_subject": "a closed glass bottle of red currant spritzer"
+  },
+  {
+    "id": "spezi-flasche",
+    "name": "Spezi (Flasche)",
+    "aliases": ["spezi bottle", "cola orange bottle", "spezi flasche"],
+    "category": "drink",
+    "prompt_subject": "a closed glass bottle of cola-orange soft drink"
+  },
+  {
+    "id": "limo-orange-flasche",
+    "name": "Limo Orange (Flasche)",
+    "aliases": ["orange lemonade bottle", "orangenlimo flasche"],
+    "category": "drink",
+    "prompt_subject": "a closed glass bottle of orange lemonade"
+  },
+  {
+    "id": "limo-zitrone-flasche",
+    "name": "Limo Zitrone (Flasche)",
+    "aliases": ["lemon lemonade bottle", "zitronenlimo flasche"],
+    "category": "drink",
+    "prompt_subject": "a closed glass bottle of clear lemon lemonade"
+  },
+  {
+    "id": "cola-flasche",
+    "name": "Cola (Flasche)",
+    "aliases": ["cola bottle", "coke bottle", "colaflasche"],
+    "category": "drink",
+    "prompt_subject": "a closed glass bottle of cola"
+  },
+  {
+    "id": "cola-zero-flasche",
+    "name": "Cola Zero (Flasche)",
+    "aliases": ["cola zero bottle", "coke zero bottle", "cola zero flasche"],
+    "category": "drink",
+    "prompt_subject": "a closed glass bottle of cola",
+    "prompt_extra": "Exception to the no-text rule above: render the word \"ZERO\" in bold, clean, uppercase letters clearly on the bottle. This single word is explicitly allowed and required for this icon."
+  },
+  {
+    "id": "eistee-flasche",
+    "name": "Eistee Pfirsich (Flasche)",
+    "aliases": ["iced tea bottle", "eistee flasche", "peach iced tea bottle"],
+    "category": "drink",
+    "prompt_subject": "a closed glass bottle of peach iced tea"
+  },
+  {
+    "id": "almdudler-flasche",
+    "name": "Almdudler (Flasche)",
+    "aliases": ["almdudler bottle", "herbal lemonade bottle", "almdudler flasche"],
+    "category": "drink",
+    "prompt_subject": "a closed glass bottle of golden herbal lemonade"
+  },
+  {
+    "id": "pils-flasche",
+    "name": "Pils (Flasche)",
+    "aliases": ["beer bottle", "bierflasche", "pils flasche"],
+    "category": "drink",
+    "prompt_subject": "a closed brown glass beer bottle"
+  },
+  {
+    "id": "radler-flasche",
+    "name": "Radler (Flasche)",
+    "aliases": ["shandy bottle", "radler flasche", "alster flasche"],
+    "category": "drink",
+    "prompt_subject": "a closed glass bottle of radler shandy"
   }
 ]

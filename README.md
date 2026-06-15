@@ -82,7 +82,7 @@ Base URL: `https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/m
 ## Available Icons
 
 <!-- ICON-TABLE-START -->
-**27 products** (27/27 icons generated)
+**43 products** (43/43 icons generated)
 
 ### Food
 
@@ -98,6 +98,10 @@ Base URL: `https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/m
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/striebele.png" width="48" height="48" alt="Striebele" /> | **Striebele** | `striebele` | funnel cake, strauben, ausgezogene, schmalzgebäck |
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/crepes-puderzucker.png" width="48" height="48" alt="Crêpes mit Puderzucker" /> | **Crêpes mit Puderzucker** | `crepes-puderzucker` | crepe puderzucker, crepe sugar, crepes zucker |
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/crepes-nutella.png" width="48" height="48" alt="Crêpes mit Nutella" /> | **Crêpes mit Nutella** | `crepes-nutella` | crepe nutella, crepe chocolate, schoko crepe |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/currywurst-brot.png" width="48" height="48" alt="Currywurst mit Brot" /> | **Currywurst mit Brot** | `currywurst-brot` | currywurst brot, curry sausage with bread, currywurst brötchen |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/currywurst-pommes.png" width="48" height="48" alt="Currywurst mit Pommes" /> | **Currywurst mit Pommes** | `currywurst-pommes` | currywurst pommes, curry sausage with fries, currywurst fritten |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/grillwurst-brot.png" width="48" height="48" alt="Grillwurst mit Brot" /> | **Grillwurst mit Brot** | `grillwurst-brot` | grillwurst brot, bratwurst with bread, grillwurst brötchen |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/grillwurst-pommes.png" width="48" height="48" alt="Grillwurst mit Pommes" /> | **Grillwurst mit Pommes** | `grillwurst-pommes` | grillwurst pommes, bratwurst with fries, grillwurst fritten |
 
 ### Drinks
 
@@ -120,6 +124,18 @@ Base URL: `https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/m
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/weinschorle-weiss.png" width="48" height="48" alt="Weinschorle weiß" /> | **Weinschorle weiß** | `weinschorle-weiss` | white wine spritzer, weisse weinschorle, gespritzter weiss |
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/weinschorle-rot.png" width="48" height="48" alt="Weinschorle rot" /> | **Weinschorle rot** | `weinschorle-rot` | red wine spritzer, rote weinschorle, gespritzter rot |
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/gedeck.png" width="48" height="48" alt="Gedeck" /> | **Gedeck** | `gedeck` | wine and water, wein und wasser, flasche wein wasser |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/wasser-flasche.png" width="48" height="48" alt="Wasser (Flasche)" /> | **Wasser (Flasche)** | `wasser-flasche` | water bottle, wasserflasche, mineralwasser flasche |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/apfelschorle-flasche.png" width="48" height="48" alt="Apfelschorle (Flasche)" /> | **Apfelschorle (Flasche)** | `apfelschorle-flasche` | apple spritzer bottle, apfelschorle flasche |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/johannisbeerschorle-flasche.png" width="48" height="48" alt="Johannisbeerschorle (Flasche)" /> | **Johannisbeerschorle (Flasche)** | `johannisbeerschorle-flasche` | currant spritzer bottle, johannisbeerschorle flasche |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/spezi-flasche.png" width="48" height="48" alt="Spezi (Flasche)" /> | **Spezi (Flasche)** | `spezi-flasche` | spezi bottle, cola orange bottle, spezi flasche |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/limo-orange-flasche.png" width="48" height="48" alt="Limo Orange (Flasche)" /> | **Limo Orange (Flasche)** | `limo-orange-flasche` | orange lemonade bottle, orangenlimo flasche |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/limo-zitrone-flasche.png" width="48" height="48" alt="Limo Zitrone (Flasche)" /> | **Limo Zitrone (Flasche)** | `limo-zitrone-flasche` | lemon lemonade bottle, zitronenlimo flasche |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/cola-flasche.png" width="48" height="48" alt="Cola (Flasche)" /> | **Cola (Flasche)** | `cola-flasche` | cola bottle, coke bottle, colaflasche |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/cola-zero-flasche.png" width="48" height="48" alt="Cola Zero (Flasche)" /> | **Cola Zero (Flasche)** | `cola-zero-flasche` | cola zero bottle, coke zero bottle, cola zero flasche |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/eistee-flasche.png" width="48" height="48" alt="Eistee Pfirsich (Flasche)" /> | **Eistee Pfirsich (Flasche)** | `eistee-flasche` | iced tea bottle, eistee flasche, peach iced tea bottle |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/almdudler-flasche.png" width="48" height="48" alt="Almdudler (Flasche)" /> | **Almdudler (Flasche)** | `almdudler-flasche` | almdudler bottle, herbal lemonade bottle, almdudler flasche |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/pils-flasche.png" width="48" height="48" alt="Pils (Flasche)" /> | **Pils (Flasche)** | `pils-flasche` | beer bottle, bierflasche, pils flasche |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/radler-flasche.png" width="48" height="48" alt="Radler (Flasche)" /> | **Radler (Flasche)** | `radler-flasche` | shandy bottle, radler flasche, alster flasche |
 
 <!-- ICON-TABLE-END -->
 
