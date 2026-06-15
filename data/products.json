@@ -46,7 +46,7 @@
     "name": "Steak",
     "aliases": ["schweinesteak", "pork steak", "kräuterbutter"],
     "category": "food",
-    "prompt_subject": "a grilled pork steak topped with a slice of herb butter, with a bread roll"
+    "prompt_subject": "a grilled pork steak topped with a slice of herb butter"
   },
   {
     "id": "baconburger",
@@ -218,6 +218,20 @@
     "prompt_subject": "a grilled bratwurst sausage served with a portion of french fries"
   },
   {
+    "id": "steak-brot",
+    "name": "Steak mit Brot",
+    "aliases": ["steak brot", "pork steak with bread", "steak brötchen"],
+    "category": "food",
+    "prompt_subject": "a grilled pork steak topped with a slice of herb butter, served with a bread roll"
+  },
+  {
+    "id": "steak-pommes",
+    "name": "Steak mit Pommes",
+    "aliases": ["steak pommes", "pork steak with fries", "steak fritten"],
+    "category": "food",
+    "prompt_subject": "a grilled pork steak topped with a slice of herb butter, served with a portion of french fries"
+  },
+  {
     "id": "wasser-flasche",
     "name": "Wasser (Flasche)",
     "aliases": ["water bottle", "wasserflasche", "mineralwasser flasche"],
@@ -301,5 +315,19 @@
     "aliases": ["shandy bottle", "radler flasche", "alster flasche"],
     "category": "drink",
     "prompt_subject": "a closed glass bottle of radler shandy"
+  },
+  {
+    "id": "wein",
+    "name": "Wein",
+    "aliases": ["wine", "rotwein weisswein", "wein rot weiss", "gutedel rotwein"],
+    "category": "drink",
+    "prompt_subject": "a glass of red wine and a glass of white wine standing side by side"
+  },
+  {
+    "id": "weinschorle",
+    "name": "Weinschorle",
+    "aliases": ["wine spritzer", "weinschorle rot weiss", "gespritzter"],
+    "category": "drink",
+    "prompt_subject": "a glass of red wine spritzer and a glass of white wine spritzer standing side by side"
   }
 ]

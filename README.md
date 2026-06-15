@@ -82,7 +82,7 @@ Base URL: `https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/m
 ## Available Icons
 
 <!-- ICON-TABLE-START -->
-**43 products** (43/43 icons generated)
+**47 products** (47/47 icons generated)
 
 ### Food
 
@@ -102,6 +102,8 @@ Base URL: `https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/m
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/currywurst-pommes.png" width="48" height="48" alt="Currywurst mit Pommes" /> | **Currywurst mit Pommes** | `currywurst-pommes` | currywurst pommes, curry sausage with fries, currywurst fritten |
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/grillwurst-brot.png" width="48" height="48" alt="Grillwurst mit Brot" /> | **Grillwurst mit Brot** | `grillwurst-brot` | grillwurst brot, bratwurst with bread, grillwurst brötchen |
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/grillwurst-pommes.png" width="48" height="48" alt="Grillwurst mit Pommes" /> | **Grillwurst mit Pommes** | `grillwurst-pommes` | grillwurst pommes, bratwurst with fries, grillwurst fritten |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/steak-brot.png" width="48" height="48" alt="Steak mit Brot" /> | **Steak mit Brot** | `steak-brot` | steak brot, pork steak with bread, steak brötchen |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/steak-pommes.png" width="48" height="48" alt="Steak mit Pommes" /> | **Steak mit Pommes** | `steak-pommes` | steak pommes, pork steak with fries, steak fritten |
 
 ### Drinks
 
@@ -136,6 +138,8 @@ Base URL: `https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/m
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/almdudler-flasche.png" width="48" height="48" alt="Almdudler (Flasche)" /> | **Almdudler (Flasche)** | `almdudler-flasche` | almdudler bottle, herbal lemonade bottle, almdudler flasche |
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/pils-flasche.png" width="48" height="48" alt="Pils (Flasche)" /> | **Pils (Flasche)** | `pils-flasche` | beer bottle, bierflasche, pils flasche |
 | <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/radler-flasche.png" width="48" height="48" alt="Radler (Flasche)" /> | **Radler (Flasche)** | `radler-flasche` | shandy bottle, radler flasche, alster flasche |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/wein.png" width="48" height="48" alt="Wein" /> | **Wein** | `wein` | wine, rotwein weisswein, wein rot weiss, gutedel rotwein |
+| <img src="https://raw.githubusercontent.com/OpenEOS-Project/pos-icon-database/main/icons/256/weinschorle.png" width="48" height="48" alt="Weinschorle" /> | **Weinschorle** | `weinschorle` | wine spritzer, weinschorle rot weiss, gespritzter |
 
 <!-- ICON-TABLE-END -->
 
