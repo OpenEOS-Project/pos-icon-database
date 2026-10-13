@@ -248,3 +248,5 @@ pnpm publish --access public
 CC0-1.0 – Public Domain (see [LICENSE](LICENSE)).
 
 The icons are deliberately dedicated to the public domain so that anyone can use them without attribution, also outside OpenEOS. This differs on purpose from the other OpenEOS repositories, which are licensed under `AGPL-3.0-or-later`.
+
+The icons are generated with OpenAI's `gpt-image-1` model (see `scripts/generate-icons.mjs`), then resized and selected by hand before release. They are provided under CC0-1.0.
