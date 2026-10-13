@@ -203,4 +203,6 @@ pnpm publish --access public
 
 ## License
 
-CC0-1.0 – Public Domain
+CC0-1.0 – Public Domain (see [LICENSE](LICENSE)).
+
+The icons are deliberately dedicated to the public domain so that anyone can use them without attribution, also outside OpenEOS. This differs on purpose from the other OpenEOS repositories, which are licensed under `AGPL-3.0-or-later`.
